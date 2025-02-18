@@ -1055,6 +1055,9 @@ h4 a:hover {
 
 @media screen and (max-width: 768px) {
 
+  .contactcard {
+    background-image: none;
+  }
     .gamebg{
     padding: 6rem ;
     font-size: 14px;

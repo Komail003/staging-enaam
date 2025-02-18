@@ -65,7 +65,7 @@ const LandingPage = () => {
           <h1 className="Prizes text-center">Limited-Time Prize Draws</h1>
           {productsData.products.length > 0 ? (
             productsData.products.map((product) => (
-              <div key={product.id} className={isZoomed ? "col-6" : "col-md-6"}>
+              <div key={product.id} className={"col-md-6"}>
                 <ProductCard Product={product} />
               </div>
             ))
