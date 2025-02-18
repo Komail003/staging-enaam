@@ -5,6 +5,8 @@
 
 .product-card1 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   background: #fff;
   border: 1px solid lightgray;
@@ -17,6 +19,8 @@
 }
 .product-card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   background: #fff;
   border: 1px solid lightgray;
@@ -128,7 +132,7 @@
   background-color: #f9a200 !important;
   color: #fff !important;
 }
-.btn-add-to-cart:hover{
+.btn-add-to-cart:hover {
   background-color: #cc8501 !important;
   color: #fff !important;
 }

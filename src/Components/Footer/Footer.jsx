@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="footer-background p-4 text-white mt-5">
       <div className="row py-md-5">
-        <div className="col-md-3 mb-4">
+        <div className="col-md-3 mb-4 text-md-start text-center">
           <img
             src={logo}
             className="footer-logo"
