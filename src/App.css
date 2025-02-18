@@ -295,6 +295,9 @@ body{
 }
 
 @media (max-width: 768px) {
+  .form-forget{
+    width: 90% !important;
+  }
   .logoImage {
     width: 25%;
     aspect-ratio: 12/5;
