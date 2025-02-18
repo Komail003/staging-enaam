@@ -6,18 +6,26 @@ const WinnersSection = () => {
     <div className="container-fluid px-md-5 my-md-5 my-3">
       <div className="row ">
         <div className="col-6">
-          <div className="winner-slide aspect-ratio-container">
-            <img
-              src={compWinners}
-              alt="Competition Winner"
-              className="img-fluid"
-            />
-          </div>
+          <a href="/winners">
+            <div className="winner-slide aspect-ratio-container">
+              <img
+                src={compWinners}
+                alt="Competition Winner"
+                className="img-fluid"
+              />
+            </div>
+          </a>
         </div>
         <div className="col-6">
-          <div className="winner-slide aspect-ratio-container ">
-            <img src={hangWinners} alt="Hangout Winner" className="img-fluid" />
-          </div>
+          <a href="/hang-tower-winners">
+            <div className="winner-slide aspect-ratio-container ">
+              <img
+                src={hangWinners}
+                alt="Hangout Winner"
+                className="img-fluid"
+              />
+            </div>
+          </a>
         </div>
       </div>
     </div>

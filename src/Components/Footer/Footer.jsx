@@ -47,7 +47,7 @@ const Footer = () => {
               <div className="footer-link-list">
                 <a href="/contact-us">Contact Us</a>
                 <a href="/#">FAQs</a>
-                <a href="/#">Offers</a>
+                <a href="/offers">Offers</a>
                 <a href="/">Reviews</a>
                 <a href="/#" className="mblas">
                   How It Works
@@ -89,62 +89,62 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100091683138802&mibextid=ZbWKwL"
               target="_blank"
-               rel="noreferrer"
+              rel="noreferrer"
               className="facebook "
               style={{ fontSize: "1.5rem" }}
             >
-             <FaFacebookF />
+              <FaFacebookF />
             </a>
             <a
               href="https://twitter.com/enaampkofficial"
               className="twitter "
               target="_blank"
-               rel="noreferrer"
+              rel="noreferrer"
               style={{ fontSize: "1.5rem" }}
             >
-              <FaXTwitter/>
+              <FaXTwitter />
             </a>
             <a
               href="https://www.tiktok.com/@enaampk"
               className="tiktok "
               target="_blank"
-               rel="noreferrer"
+              rel="noreferrer"
               style={{ fontSize: "1.5rem" }}
             >
-             <FaTiktok/>
+              <FaTiktok />
             </a>
             <a
               href="https://instagram.com/enaampk.official?igshid=MzRlODBiNWFlZA=="
               target="_blank"
-               rel="noreferrer"
+              rel="noreferrer"
               className="instagram "
               style={{ fontSize: "1.5rem" }}
             >
-              <FaInstagram/>
+              <FaInstagram />
             </a>
             <a
               href="https://www.youtube.com/@enaampk"
               className="youtube "
               target="_blank"
-               rel="noreferrer"
+              rel="noreferrer"
               style={{ fontSize: "1.5rem" }}
             >
-              <FaYoutube/>
+              <FaYoutube />
             </a>
             <a
               href="https://wa.me/+923211118392"
               className="whatsapp"
               target="_blank"
-               rel="noreferrer"
+              rel="noreferrer"
               style={{ fontSize: "1.5rem" }}
             >
-              <FaWhatsapp/>
+              <FaWhatsapp />
             </a>
           </div>
         </div>
         <div className="col-md-5 text-center">
           <p className="mb-0">
-            All Rights Reserved © 2024 | Designed and developed by Meptics
+            All Rights Reserved © 2025 | Designed and Developed by Meptics
           </p>
         </div>
         <div className="col-md-3 text-md-end text-center mt-3 mt-md-0">

@@ -22,21 +22,22 @@ const CartSection = () => {
       navigate("/login");
       return false;
     } else {
-      fetchCart(user.id);
+      console.log("user not logged in");
+      // fetchCart(user.id);
     }
     // eslint-disable-next-line
   }, []);
-  const fetchCart = async (id) => {
-    //console.log(id,"userid")
-    const res = await GetWihoutHead(`/cart/${id}`);
-    // eslint-disable-next-line
-    if (res.status === 200 && res) {
-      //console.log(res);
-      setCart(res.data.cartItems);
-    } else {
-      //console.log(res, "error getting cart");
-    }
-  };
+  // const fetchCart = async (id) => {
+  //   //console.log(id,"userid")
+  //   const res = await GetWihoutHead(`/cart/${id}`);
+  //   // eslint-disable-next-line
+  //   if (res.status === 200 && res) {
+  //     //console.log(res);
+  //     setCart(res.data.cartItems);
+  //   } else {
+  //     //console.log(res, "error getting cart");
+  //   }
+  // };
   const updateTotalAmount = (newTotal) => {
     setTotalAmount(newTotal);
   };

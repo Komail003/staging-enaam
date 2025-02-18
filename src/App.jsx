@@ -32,12 +32,12 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/gamesection" element={<Quiz/>} />
+        <Route path="/gamesection" element={<Quiz />} />
         <Route path="/checkout" element={<CheckOut />} />
         <Route path="/profile" element={<MyProfile />} />
         <Route path="*" element={<UndefinedPage />} />
       </Routes>
-      <ToastContainer stacked theme="colored"/>
+      <ToastContainer stacked theme="colored" />
     </div>
   );
 }
